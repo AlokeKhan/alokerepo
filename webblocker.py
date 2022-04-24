@@ -30,3 +30,7 @@ block(root)).place(x=110, y=100)
 #Button(root,text='Block website', font=('Times',16), bg='SpringGreen4', command = lambda:
 #unblock(root)).place(x=110, y=100)
 
+# you need to call root.update() and root.mainloop() to actually 
+# open the window
+root.update()
+root.mainloop()
